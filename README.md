@@ -1,6 +1,6 @@
 # Skills de pesquisa em humanidades para Claude
 
-Coleção de 26 skills escritas para trabalho de pesquisa acadêmica com o Claude: protocolos de raciocínio, estilos de resposta, revisão de escrita acadêmica, navegação de corpus e algumas ferramentas.
+Coleção de 27 skills escritas para trabalho de pesquisa acadêmica com o Claude: protocolos de raciocínio, estilos de resposta, revisão de escrita acadêmica, navegação de corpus e algumas ferramentas.
 
 Elas nasceram dentro de um projeto de dissertação real. As que dependiam desse projeto foram **generalizadas**: nomes, caminhos e dados do projeto viraram placeholders (`<...>`, `$CORPUS`, `$VAULT`), e algumas trazem um bloco "preencher" que precisa ser adaptado antes do primeiro uso.
 
@@ -47,6 +47,7 @@ As ligações entre skills estão em [docs/cadeias.md](docs/cadeias.md).
 | [simular-pesquisador](skills/escrita-academica/simular-pesquisador/) | Treinador socrático: aponta o texto, não responde | média |
 | [testar-arbitragem-clareza](skills/escrita-academica/testar-arbitragem-clareza/) | Testa adversarialmente as arbitragens de revisar-clareza | média |
 | [titular](skills/escrita-academica/titular/) | Cinco opções de título para qualquer nível do trabalho | média |
+| [quem-fala](skills/escrita-academica/quem-fala/) | Separa, em texto feito com IA, a voz da fonte, a do pesquisador e a do modelo | média |
 
 ### Corpus e pesquisa
 

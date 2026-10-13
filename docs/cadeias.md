@@ -71,6 +71,7 @@ flowchart TD
     T -- "consequências de uma decisão" --> ACS["auditoria-causal-sistemica"]
     T -- "estrutura lógica de um argumento" --> RAA["reductio-ad-absurdum"]
     T -- "texto de terceiro a avaliar" --> AA["auditor-argumentativo-style"]
+    T -- "texto de pesquisa redigido com IA" --> QF["quem-fala"]
     T -- "tema político ou moral contestado" --> I{"Vale pagar API?"}
     I -- "não" --> IP["invariancia-politica"]
     I -- "sim" --> CP["contraprova"]
